@@ -5,9 +5,8 @@
 ## Descrição
 Este programa calcula o **consumo de energia de um aparelho elétrico** em kWh (quilowatt-hora), utilizando a fórmula:
 
-\[
-\text{Consumo (kWh)} = \frac{\text{Potência (W)} \times \text{Horas de uso}}{1000}
-\]
+Consumo (kWh)= 1000/Potencia(W)×Horas de uso
+	​
 
 - **Potência (W):** potência do aparelho em watts.
 - **Horas de uso:** tempo em que o aparelho permanece ligado.
