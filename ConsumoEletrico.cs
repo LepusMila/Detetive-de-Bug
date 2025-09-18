@@ -18,7 +18,7 @@ class ConsumoEletrico
         Console.Write("Qual o valor do kWh na sua conta de luz? (ex: 0.95): R$ ");
         double precoKwh = Convert.ToDouble(Console.ReadLine());
 
-        double consumoMensal = (potencia * horasPorDia * dias) / 1000; // calculo correto
+        double consumoMensal = (potencia * horasPorDia * dias) / 100; // calculo correto
         double custo = consumoMensal * precoKwh;
 
        Console.WriteLine("\nRelatório de Consumo Elétrico:");
