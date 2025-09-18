@@ -24,5 +24,6 @@ class ConsumoEletrico
        Console.WriteLine("\nRelatório de Consumo Elétrico:");
        Console.WriteLine($"Consumo mensal: {consumoMensal:F2} kWh (estimado)");
        Console.WriteLine($"Custo mensal: R$ {custo:F2} (aproximado)");
+       Console.WriteLine("\nFim do relatório.");
     }
 }
