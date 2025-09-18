@@ -21,8 +21,8 @@ class ConsumoEletrico
         double consumoMensal = (potencia * horasPorDia * dias) / 1000; // calculo correto
         double custo = consumoMensal * precoKwh;
 
-        Console.WriteLine("\nRelatorio de Consumo Eletrico:");
-        Console.WriteLine($"Consumo mensal: {consumoMensal:F2} kWh");
-        Console.WriteLine($"Custo mensal estimado: R$ {custo:F2}");
+       Console.WriteLine("\nRelatório de Consumo Elétrico:");
+       Console.WriteLine($"Consumo mensal: {consumoMensal:F2} kWh (estimado)");
+       Console.WriteLine($"Custo mensal: R$ {custo:F2} (aproximado)");
     }
 }
